@@ -51,3 +51,15 @@ This task is carried out immediately after the previous one (Hurt Me Plenty).
 3. Change the remote repository into the local one so that fetch and push come to to the new repository that was created in the previous step.
 4. Make a push and make sure that the second repository on the github looks the same as the first.
 5. Return the remote settings to their initial state: pull and push of the first local repository lead to one remote repository on the github.
+
+Nightmare! 
+To complete this task, you will need to repeat all 4 previous ones using only the MINGW64 command line (in which git works). 
+You cannot use file managers, GUI text editors, gitk / git gui. 
+You are allowed to use the browser only for github operations. 
+Everything else is only through the console. 
+This is the most difficult task in this course.
+Commands that may be useful to you:
+1) echo
+2) cd
+3) cat
+4) vi
